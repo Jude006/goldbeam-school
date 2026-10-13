@@ -27,8 +27,8 @@ const slides = [
       "We nurture every student to discover their potential, build strong character, and shine in all areas of life.",
   },
   {
-    src: "/images/staff3.webp",
-    mobileSrc: "/images/staff3.webp",
+    src: "/images/bg2.jpg",
+    mobileSrc: "/images/bg2.jpg",
     eyebrow: "Why Choose Us",
     heading: "Excellence in a Nurturing Environment",
     subheading:
