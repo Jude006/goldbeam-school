@@ -1,0 +1,10 @@
+# public/robots.txt
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /student/
+Disallow: /api/
+Disallow: /auth/
+
+Sitemap: https://marianschools.com/sitemap.xml
+
