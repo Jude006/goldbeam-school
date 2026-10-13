@@ -458,7 +458,7 @@ const AcademicSettings = () => {
               value={form.schoolName}
               disabled={!isEditing}
               onChange={(e) => setForm({ ...form, schoolName: e.target.value })}
-              placeholder="Amazing Grace Academy"
+              placeholder="Goldbeam School"
               className={inputClass}
             />
           </div>

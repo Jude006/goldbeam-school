@@ -121,7 +121,7 @@ const StudentDashboard = () => {
     <>
       <SEO
         title="Student Dashboard"
-        description="Access your academic results, fee records, and profile at Amazing Grace Academy."
+        description="Access your academic results, fee records, and profile at Goldbeam School."
         keywords="student portal, school dashboard, academic results"
         url="/student/dashboard"
       />

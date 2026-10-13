@@ -137,9 +137,9 @@ const AboutPreview = () => {
             </p>
 
             <p className="mb-8 text-sm leading-relaxed sm:text-base text-slate-500">
-              At Amazing Grace Academys, Oraukwu, we provide a memorable
-              academic experience in a Christ-centered environment. At Marian
-              Foundation Academy; School feels like home.
+              At Goldbeam Schools, Oraukwu, we provide a memorable academic
+              experience in a Christ-centered environment. At Marian Foundation
+              Academy; School feels like home.
             </p>
 
             <div className="flex items-center gap-6">

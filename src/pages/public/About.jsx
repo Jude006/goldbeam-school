@@ -10,7 +10,7 @@ const About = () => {
     <>
       <SEO
         title="About Us - Our History, Mission & Vision"
-        description="Learn about Amazing Grace Academy's rich history since 2002, our mission, vision, core values, and commitment to academic excellence and moral integrity."
+        description="Learn about Goldbeam School's rich history since 2002, our mission, vision, core values, and commitment to academic excellence and moral integrity."
         keywords="about Marian Foundation Academy, school history Oraukwu, Catholic school mission, school vision and values"
         url="/about"
         tags={["history", "mission", "vision", "values", "Catholic education"]}

@@ -37,7 +37,7 @@ const BuildingPage = () => {
       {/* Background Image - School Building */}
       <img
         src="/images/school_building3a.jpg"
-        alt="Amazing Grace Academy"
+        alt="Goldbeam School"
         className="absolute inset-0 h-full w-full object-cover"
         loading="eager"
         decoding="async"

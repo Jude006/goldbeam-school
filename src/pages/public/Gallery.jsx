@@ -7,7 +7,7 @@ const Gallery = () => {
     <>
       <SEO
         title="School Gallery - Photos & Events"
-        description="Explore photos and events from Amazing Grace Academy showcasing our students, facilities, and school activities."
+        description="Explore photos and events from Goldbeam School showcasing our students, facilities, and school activities."
         keywords="school gallery, Marian Foundation Academy photos, school events, students activities"
         url="/gallery"
         tags={["gallery", "photos", "events", "students", "activities"]}

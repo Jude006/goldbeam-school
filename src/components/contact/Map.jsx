@@ -43,7 +43,7 @@ const Map = () => {
           className="relative w-full h-[400px] md:h-[480px] rounded-3xl overflow-hidden shadow-xl bg-white p-2 border border-gray/10"
         >
           <iframe
-            title="Amazing Grace Academy Location"
+            title="Goldbeam School Location"
             src={`https://maps.google.com/maps?q=${mapAddressQuery}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
             width="100%"
             height="100%"

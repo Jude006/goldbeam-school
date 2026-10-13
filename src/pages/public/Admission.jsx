@@ -110,7 +110,7 @@ const OfficialAdmissionForm = React.forwardRef(
               Archdiocese of Onitsha
             </p>
             <h1 className="text-[13px] sm:text-[15px] font-black uppercase leading-tight text-slate-900">
-              Amazing Grace Academys
+              Goldbeam Schools
             </h1>
             <p className="text-[9px] font-semibold uppercase leading-tight">
               Oraukwu, Idemili North LGA

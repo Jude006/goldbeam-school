@@ -1,4 +1,4 @@
-import { Link, Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
@@ -13,27 +13,27 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/images/final_crest.jpg"
+                src="/images/logo.png"
                 loading="lazy"
-                alt="Marian Foundation Academy"
+                alt="Goldbeam Schools"
                 className="object-contain w-12 h-12 p-1 bg-white rounded-full"
               />
               <div>
                 <h3 className="text-lg font-bold leading-tight font-heading">
-                  Marian Foundation
+                  Goldbeam Schools
                 </h3>
-                <p className="text-sm text-white/80">Academy Schools</p>
+                <p className="text-sm text-white/80">Arise and Shine</p>
               </div>
             </div>
             <p className="text-sm leading-relaxed text-white/80">
-              Love · Service · Excellence. A Christ-centered Catholic school
-              nurturing excellence since 2002.
+              Arise and Shine. A leading school nurturing academic excellence,
+              discipline, and future leaders since 2005.
             </p>
 
             {/* Social Icons */}
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="https://facebook.com/MarianFoundationAcademy"
+                href="https://facebook.com/goldbeamschools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center transition-colors rounded-full w-9 h-9 bg-white/10 hover:bg-secondary"
@@ -41,7 +41,7 @@ const Footer = () => {
                 <FaFacebook size={16} />
               </a>
               <a
-                href="https://instagram.com/Marianfoundationacademyoraukwu"
+                href="https://instagram.com/goldbeamschools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center transition-colors rounded-full w-9 h-9 bg-white/10 hover:bg-secondary"
@@ -49,23 +49,7 @@ const Footer = () => {
                 <FaInstagram size={16} />
               </a>
               <a
-                href="https://tiktok.com/@MarianFoundationAcademyOraukwu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center transition-colors rounded-full w-9 h-9 bg-white/10 hover:bg-secondary"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
-                </svg>
-              </a>
-              <a
-                href="https://youtube.com/@MarianFoundationAcademy"
+                href="https://youtube.com/@goldbeamschools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center transition-colors rounded-full w-9 h-9 bg-white/10 hover:bg-secondary"
@@ -73,7 +57,7 @@ const Footer = () => {
                 <FaYoutube size={16} />
               </a>
               <a
-                href="https://twitter.com/marianfounvihg"
+                href="https://twitter.com/goldbeamschools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center transition-colors rounded-full w-9 h-9 bg-white/10 hover:bg-secondary"
@@ -139,32 +123,31 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-secondary mt-0.5 shrink-0" />
                 <span>
-                  Inside St. Joseph Catholic Church Premises, Oraukwu, Idemili
-                  North L.G.A, Anambra State, Nigeria
+                  14, Association Avenue, Iroko Town, Ogun State, Nigeria
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-secondary shrink-0" />
                 <a
-                  href="tel:+2348140728109"
+                  href="tel:+2348035764123"
                   className="transition-colors hover:text-secondary"
                 >
-                  +234 814 072 8109
+                  0803 576 4123
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-secondary shrink-0" />
                 <a
-                  href="mailto:mfacademyschool@gmail.com"
+                  href="mailto:goldbeamschools@gmail.com"
                   className="break-all transition-colors hover:text-secondary"
                 >
-                  mfacademyschool@gmail.com
+                  goldbeamschools@gmail.com
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* School Hours / Extra */}
+          {/* School Information */}
           <div>
             <h4 className="mb-5 text-lg font-semibold font-heading">
               School Information
@@ -173,17 +156,17 @@ const Footer = () => {
               <li>
                 <span className="font-medium text-white">Motto:</span>
                 <br />
-                Love, Service & Excellence
-              </li>
-              <li>
-                <span className="font-medium text-white">Established:</span>
-                <br />
-                23rd September 2002
+                Arise and Shine
               </li>
               <li>
                 <span className="font-medium text-white">Type:</span>
                 <br />
-                Catholic Co-educational School
+                Co-educational School
+              </li>
+              <li>
+                <span className="font-medium text-white">Location:</span>
+                <br />
+                Iroko Town, Ogun State
               </li>
             </ul>
           </div>
@@ -194,8 +177,7 @@ const Footer = () => {
       <div className="border-t border-white/10">
         <div className="flex flex-col items-center justify-between gap-3 px-4 py-5 mx-auto text-sm max-w-7xl sm:px-6 lg:px-8 sm:flex-row text-white/70">
           <p>
-            © {currentYear} Amazing Grace Academys, Oraukwu. All rights
-            reserved.
+            © {currentYear} Goldbeam Schools, Iroko Town. All rights reserved.
           </p>
           <Link to="https://portfolio-virid-kappa.vercel.app/">
             <p className="text-xs">

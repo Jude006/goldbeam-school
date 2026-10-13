@@ -60,12 +60,12 @@ const AboutHistory = () => {
             </h2>
 
             <p className="text-sm leading-relaxed sm:text-base text-slate-600">
-              Amazing Grace Academy was conceived in 2001 at a meeting of the
-              St. Joseph's Catholic Parish Pastoral Council, Oraukwu, and
-              officially became functional on the 23rd of September, 2002. Under
-              the leadership of Rev. Fr. Mike Mbonu (Parish Priest & Manager at
-              the time) and Mr. Gilbert Green Maduka (Pioneer Principal), the
-              school began its storied journey.
+              Goldbeam School was conceived in 2001 at a meeting of the St.
+              Joseph's Catholic Parish Pastoral Council, Oraukwu, and officially
+              became functional on the 23rd of September, 2002. Under the
+              leadership of Rev. Fr. Mike Mbonu (Parish Priest & Manager at the
+              time) and Mr. Gilbert Green Maduka (Pioneer Principal), the school
+              began its storied journey.
             </p>
 
             <p className="text-sm leading-relaxed sm:text-base text-slate-600">
@@ -106,7 +106,7 @@ const AboutHistory = () => {
                   School Identity
                 </span>
                 <p className="text-lg font-bold font-heading">
-                  Amazing Grace Academy, Oraukwu
+                  Goldbeam School, Oraukwu
                 </p>
                 <p className="mt-1 text-xs italic text-slate-200">
                   Inside St Joseph Catholic Church Premises, Oraukwu, Anambra

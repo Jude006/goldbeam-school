@@ -39,9 +39,9 @@ const ScholarshipSection = () => {
             <span className="text-primary">Academic Excellence</span>
           </h2>
           <p className="mt-3 text-sm leading-relaxed sm:text-base text-gray">
-            At Amazing Grace Academy, we believe intelligence should be
-            rewarded. We support outstanding students so financial barriers do
-            not stop their potential.
+            At Goldbeam School, we believe intelligence should be rewarded. We
+            support outstanding students so financial barriers do not stop their
+            potential.
           </p>
         </motion.div>
 
